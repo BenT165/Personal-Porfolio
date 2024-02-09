@@ -22,8 +22,8 @@ body {
 
 .prof_photo {
 
-    width: 50px;
-    height: 50px;
+    width: 55px;
+    height: 55px;
     border-radius: 50%;
 }
 
@@ -35,6 +35,40 @@ body {
 
 .main_header {
     display: flex;
+    justify-content: center;
     color: #45454b;
-    margin-left: 50%;
+    margin-top: 10%;
+    white-space: nowrap;
+}
+
+.secondary_header {
+    display: flex;
+    justify-content: center;
+    color: #45454b;
+    font-size: 32px;
+    font-family: Rockwell;
+    white-space: nowrap;
+}
+
+.paragraph {
+    display: flex;
+    justify-content: center;
+    font-family: 'Fira Sans', sans-serif;
+    color: black;
+}
+
+.collapse{
+    justify-content: space-around; 
+    margin-left:25vw;
+}
+
+#dropdown-menu {
+    display: flex;
+    justify-content: end;
+
+}
+
+#jumbotron {
+    background: none;
+    font-family: 'Fira Sans', sans-serif;
 }
