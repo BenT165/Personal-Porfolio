@@ -1,0 +1,40 @@
+html {
+    font-family: sans-serif;
+}
+
+#main{
+    padding: 30px;
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    margin:0;
+}
+.navbar-nav > li{
+    padding-left: 10px;;
+    padding-right: 10px;
+}
+
+.navbar-brand {
+    padding-right: 100px;
+}
+
+.prof_photo {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.home_text {
+    display: flex;
+    color: grey;
+    position: absolute;
+}
+
+.main_header {
+    display: flex;
+    color: #45454b;
+    margin-left: 50%;
+}
