@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/css/projects.css'>
+    
+    <!-- dino Icon :) -->
+    <link rel="shortcut icon" type="x-icon" href="/images/iconicDino.png">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Ben's Portfolio</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="main">
+        <nav class="navbar navbar-expand-lg" style="font-family: 'Fira Sans', sans-serif;">
+            <!--TODO add div here-->
+            <div class="container-fluid">
+            <a class="navbar-brand text-dark" href="#" style="padding-left: 20px">
+                <img src="/images/Handsome Photo.jpeg" alt="Logo" class="prof_photo"> Ben Tate
+            </a>
+        
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse ms-auto" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-dark" href="/" id="home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="/about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="/projects">Personal Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Contact Me</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white invisible" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="/">Home</a></li>
+                            <li><a class="dropdown-item" href="/about">About Me</a></li>
+                            <li><a class="dropdown-item" href="/projects">Personal Projects</a></li>
+                            <li><a class="dropdown-item" href="#">Contact Me</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+             <!--TODO add close div here-->
+            </div>
+        </nav>
+
+
+        <!--HOME PAGE-->
+        <section id="home">
+            <div class="jumbotron" >
+                <h3 class="main_header" id="myHeader">
+                    Welcome aboard, I'm Ben
+                </h3>
+                    <br>
+                <h3 class="secondary_header">
+                    I design Software
+                </h3>
+                <br>
+      
+                <p class="paragraph">I'm looking for full-time employment software engineering positions</p>
+           
+            </div>
+        </section>
+
+    </div>
+
+
+ 
+    <!-- Bootstrap 5 JavaScript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.clouds.min.js"></script>
+
+
+    <script>
+     VANTA.CLOUDS({
+        el: "#main",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        skyColor: 0xffa07a,
+        cloudColor: 0x4f3678,
+        cloudShadowColor: 0x333341,
+        sunColor: 0xf79f31,
+        sunGlareColor: 0xe1b987,
+        sunlightColor: 0xf79f31
+    });
+    </script>
+  
+
+
+    <!-- afternoon -->
+    <!--<script>
+        VANTA.CLOUDS({
+          el: "#main",
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 200.00,
+          minWidth: 200.00
+        })
+    </script>-->
+
+    <!-- evening <script>
+   
+    </script>
+    -->
+
+    <!-- night <script>
+    VANTA.CLOUDS({
+        el: "#main",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        skyColor: 0x#041028,
+        cloudColor: 0x#222222,
+        cloudShadowColor: 0x#333333,
+        sunColor: 0x#0c1445,
+        sunGlareColor: 0x#0c1445,
+        sunlightColor: 0x#313131
+    });
+    </script>
+    -->
+
+
+
+   
+</body>
+</html>

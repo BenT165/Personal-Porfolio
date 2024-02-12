@@ -1,0 +1,113 @@
+#main{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+ 
+}
+
+body {
+    margin:0;
+
+}
+.navbar-nav > li{
+    padding-left: 10px;;
+    padding-right: 10px;
+}
+
+.navbar-brand {
+    padding-right: 100px;
+}
+
+.about_photo {
+    height: 300px;
+    width: 300px;
+    border-radius: 10%;
+
+}
+
+.home_text {
+    display: flex;
+    color: grey;
+    position: absolute;
+}
+
+.main_header {
+    display: flex;
+    justify-content: center;
+    color: #45454b;
+    margin-top: 10%;
+    white-space: nowrap;
+}
+
+.secondary_header {
+    display: flex;
+    justify-content: center;
+    color: #45454b;
+    font-size: 32px;
+    font-family: Rockwell;
+    white-space: nowrap;
+}
+
+.paragraph {
+    display: flex;
+    position: relative;
+    font-family: 'Fira Sans', sans-serif;
+    color: black;
+}
+
+.collapse{
+    justify-content: space-around; 
+    margin-left:25vw;
+}
+
+#dropdown-menu {
+    display: flex;
+    justify-content: end;
+
+}
+
+#jumbotron {
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 0 !important;
+}
+
+#about_body {
+    position: relative;
+    justify-content: center;
+}
+
+#bullet_points {
+    background-color: transparent; 
+    border: none;
+    background-color: transparent; 
+    border: none; 
+    padding: 5px;
+    font-size: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+
+#pdf {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background: rgba(158, 158, 158, 0.11); /* Use rgba for transparent background */
+    text-align: center; /* Center text within the button */
+    backdrop-filter: blur(10px);
+    font-size: 14px;
+    margin-bottom: 10px;
+    width: 105px; /* Corrected typo from 111spx to 111px */
+    height: 35px;
+    border-radius: 4px;
+}
+
+#pdf:hover {
+    background: rgb(14, 207, 14);
+}
+
+#container {
+    height: 100vh; /* 100% of the viewport height */
+    width: 100vw; /* 100% of the viewport width */
+    background: none;
+
+}

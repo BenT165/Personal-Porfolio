@@ -17,14 +17,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet">
-    
+
 </head>
 <body>
     <div id="main">
         <nav class="navbar navbar-expand-lg" style="font-family: 'Fira Sans', sans-serif;">
             <!--TODO add div here-->
             <div class="container-fluid">
-            <a class="navbar-brand text-white" href="#" style="padding-left: 20px">
+            <a class="navbar-brand text-dark" href="#" style="padding-left: 20px">
                 <img src="/images/Handsome Photo.jpeg" alt="Logo" class="prof_photo"> Ben Tate
             </a>
         
@@ -34,25 +34,25 @@
             <div class="collapse navbar-collapse ms-auto" id="navbarNavDropdown">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item active">
-                        <a class="nav-link text-white" href="#">Home</a>
+                        <a class="nav-link text-dark" href="#" id="home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">About Me</a>
+                        <a class="nav-link text-dark" href="/about">About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Personal Projects</a>
+                        <a class="nav-link text-dark" href="/projects">Personal Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Contact Me</a>
+                        <a class="nav-link text-dark" href="#">Contact Me</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle text-white invisible" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">Home</a></li>
-                            <li><a class="dropdown-item" href="#">About Me</a></li>
-                            <li><a class="dropdown-item" href="#">Personal Projects</a></li>
+                            <li><a class="dropdown-item" href="/">Home</a></li>
+                            <li><a class="dropdown-item" href="/about">About Me</a></li>
+                            <li><a class="dropdown-item" href="/projects">Personal Projects</a></li>
                             <li><a class="dropdown-item" href="#">Contact Me</a></li>
                         </ul>
                     </li>
@@ -63,30 +63,54 @@
         </nav>
 
 
-        <div class="jumbotron" >
-            <h3 class="main_header" id="myHeader">
-                Welcome aboard, I'm Ben
-            </h3>
+        <!--HOME PAGE-->
+        <section id="home">
+            <div class="jumbotron" >
+                <h3 class="main_header" id="myHeader">
+                    Welcome aboard, I'm Ben
+                </h3>
+                    <br>
+                <h3 class="secondary_header">
+                    I design Software
+                </h3>
                 <br>
-            <h3 class="secondary_header">
-                I design Software.
-            </h3>
-                
-            
-            <br>
       
-            <p class="paragraph">I'm looking for full-time employment software engineering positions</p>
+                <p class="paragraph">I'm looking for full-time employment software engineering positions</p>
            
-        </div>
+            </div>
+        </section>
+
     </div>
 
 
  
-    <!-- Bootstrap 5 JavaScript -->
+    <!-- Bootstrap 5 JavaScript-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.clouds.min.js"></script>
+
+
     <script>
+    VANTA.CLOUDS({
+        el: "#main",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        skyColor: 0xcdcdff,
+        cloudColor: 0x9d9dc5,
+        cloudShadowColor: 0x3d4646,
+        sunColor: 0xedd734,
+        sunGlareColor: 0xaf1c1c,
+        sunlightColor: 0xc590d7
+    });
+    </script>
+  
+
+
+    <!-- afternoon -->
+    <!--<script>
         VANTA.CLOUDS({
           el: "#main",
           mouseControls: true,
@@ -95,7 +119,45 @@
           minHeight: 200.00,
           minWidth: 200.00
         })
+    </script>-->
+
+    <!-- evening <script>
+    VANTA.CLOUDS({
+        el: "#main",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        skyColor: 0xffa07a,
+        cloudColor: 0x4f3678,
+        cloudShadowColor: 0x333341,
+        sunColor: 0xf79f31,
+        sunGlareColor: 0xe1b987,
+        sunlightColor: 0xf79f31
+    });
     </script>
+    -->
+
+    <!-- night <script>
+    VANTA.CLOUDS({
+        el: "#main",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        skyColor: 0x#041028,
+        cloudColor: 0x#222222,
+        cloudShadowColor: 0x#333333,
+        sunColor: 0x#0c1445,
+        sunGlareColor: 0x#0c1445,
+        sunlightColor: 0x#313131
+    });
+    </script>
+    -->
+
+
 
    
 </body>
