@@ -1,0 +1,108 @@
+html {
+    font-family: sans-serif;
+}
+
+#main{
+    padding: 30px;
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    margin:0;
+}
+.navbar-nav > li{
+    padding-left: 10px;;
+    padding-right: 10px;
+}
+
+.navbar-brand {
+    padding-right: 100px;
+}
+
+.prof_photo {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+
+
+.main_header {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 10%;
+    white-space: nowrap;
+}
+
+.secondary_header {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 32px;
+    font-family: Rockwell;
+    white-space: nowrap;
+}
+
+
+.collapse{
+    justify-content: space-around; 
+    margin-left:25vw;
+}
+
+#dropdown-menu {
+    display: flex;
+    justify-content: end;
+
+}
+
+#jumbotron {
+    background: none;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+ 
+
+ .custom-toggler.navbar-toggler {
+    border-color: white;
+}
+
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 90)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.bi {
+    width: auto;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: all 0.3s;
+}
+
+.bi:hover {
+    transform: scale(1.1);
+    background-color: var(-);
+    color: var(--clr-light);
+    cursor: pointer;
+}
+
+#icon_container {
+
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background: rgba(158, 158, 158, 0.11); /* Use rgba for transparent background */
+    text-align: center; /* Center text within the button */
+    backdrop-filter: blur(10px);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 4px;
+    margin-left: 4vw;
+    margin-right: 4vw;
+
+    
+ 
+}

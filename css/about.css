@@ -1,6 +1,7 @@
 #main{
     height: 100vh;
     width: 100vw;
+    padding: 30px;
     position: absolute;
  
 }
@@ -71,7 +72,7 @@ body {
     margin-top: 0 !important;
 }
 
-#about_body {
+.about_body {
     position: relative;
     justify-content: center;
 }
@@ -79,8 +80,6 @@ body {
 #bullet_points {
     background-color: transparent; 
     border: none;
-    background-color: transparent; 
-    border: none; 
     padding: 5px;
     font-size: 20px;
     font-family: 'Fira Sans', sans-serif;
@@ -90,6 +89,7 @@ body {
 #pdf {
     display: flex;
     justify-content: center; /* Center horizontally */
+    z-index: 2;
     align-items: center; /* Center vertically */
     background: rgba(158, 158, 158, 0.11); /* Use rgba for transparent background */
     text-align: center; /* Center text within the button */
@@ -109,5 +109,14 @@ body {
     height: 100vh; /* 100% of the viewport height */
     width: 100vw; /* 100% of the viewport width */
     background: none;
+}
+
+#myHeader {
+    margin-top: 5%;
+}
+
+#about {
+
+    background-color: transparent;
 
 }
