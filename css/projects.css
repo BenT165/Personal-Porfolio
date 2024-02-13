@@ -4,7 +4,7 @@ html {
 
 #main{
     padding: 30px;
-    height: 100vh;
+    height: 120vh;
     width: 100vw;
 }
 
@@ -67,4 +67,33 @@ body {
     background: none;
     font-family: 'Fira Sans', sans-serif;
 }
+
+.projects_row {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+
+
+
+.image-button {
+    background-color: rgba(255, 165, 0, 0.7);
+    border-radius: 4px;
+    color: white; /* Text color */
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.image-button:hover {
+    background-color: rgba(255, 165, 0, 0.9);
+    color: black; 
+    cursor: pointer;
+}
+
+
 
