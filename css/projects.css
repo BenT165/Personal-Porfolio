@@ -4,7 +4,7 @@ html {
 
 #main{
     padding: 30px;
-    height: 120vh;
+    height: 125vh;
     width: 100vw;
 }
 
@@ -93,6 +93,22 @@ body {
     background-color: rgba(255, 165, 0, 0.9);
     color: black; 
     cursor: pointer;
+}
+
+
+.header-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Aligns content vertically */
+    height: 100%; /* Ensures each column takes up the same height */
+    text-align: left; /* Centers text horizontally */
+    white-space: nowrap; /* Prevents text from wrapping onto multiple lines */
+
+}
+
+.bullet_wrapper {
+
+    white-space: normal;
 }
 
 
