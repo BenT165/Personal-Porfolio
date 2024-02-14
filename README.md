@@ -1,9 +1,10 @@
 This is a website containing my programming background, contact info, resume, and personal projects.
 
 Sources:
-Bootstrap website for documentation,
+Vanta.js for animated background,
+Bootstrap website for documentation and social icons,
 Stack Overflow for styling questions,
-W3 schools for modeling, understanding Bootstrap components.
+W3 schools for modeling, understanding Bootstrap components
 
 GitHub link: https://github.com/BenT165/Personal-Porfolio
 
