@@ -2,7 +2,7 @@ This is a website containing my programming background, contact info, resume, an
 
 Sources:
 Vanta.js for animated background,
-Bootstrap website for official documentation
+Bootstrap website for official documentation,
 Stack Overflow for styling questions,
 W3 schools for modeling, understanding Bootstrap components, social icons
 
